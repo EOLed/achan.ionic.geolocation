@@ -1,4 +1,4 @@
-angular.module('achan.ionic.geolocation', ['ionic', 'achan.cordova.navigator'])
+angular.module('achan.ionic.geolocation', ['ionic', 'achan.cordova'])
     .factory('geolocation', function ($rootScope, $ionicPlatform, $q, $navigator) {
   function getCurrentPosition() {
     var deferred = $q.defer();
