@@ -2,20 +2,17 @@
   "name": "achan.ionic.geolocation",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "1.2.14",
-    "ionic": "~0.9.27",
-    "angular-animate": "~1.2.14",
-    "angular-ui-router": "~0.2.10",
-    "angular-sanitize": "~1.2.14",
+    "angular": "^1",
+    "ionic": "^1",
+    "angular-animate": "^1",
+    "angular-ui-router": "*",
+    "angular-sanitize": "^1",
     "achan.cordova": "*"
   },
   "devDependencies": {
-    "angular-mocks": "1.2.14"
+    "angular-mocks": "^1"
   },
   "resolutions": {
-    "angular": "1.2.14",
-    "angular-animate": "~1.2.14",
-    "angular-ui-router": "~0.2.10",
-    "angular-sanitize": "~1.2.14"
+    "angular": "^1"
   }
 }
